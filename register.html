@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>OSRS Spellbook Viewer</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <ul>
+                <li><a href="/index.html"><button class="icon" id="home">Home</button></a></li>
+                <li><a href="/Spellbook_Viewer.html"><button class="icon" id="swap">Spell Viewer</button></a></li>
+                <li><a href="/register.html"><button class="icon" id="register">Register</button></a></li>
+                <li><a href="/about.html"><button class="icon" id="about">About</button></a></li>
+                <li><a href="/contact.html"><button class="icon" id="contact">Contact</button></a></li>
+                <li><a href="/services.html"><button class="icon" id="services">Services</button></a></li>
+            </ul>
+        </section>
+        <div id="registration">
+            <form action="">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="example@email.com" pattern="[A-Za-z0-9]+@[A-Za-z0-9]+(\.[A-Za-z]+)*$" aria-label="Enter your email">
+                <br>
+                <br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" placeholder="password" pattern="[A-Za-z0-9]{8,}" minlength="8" required>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

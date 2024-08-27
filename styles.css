@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+}
+
+main {
+    background-color: black;
+    border: solid white;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+
+div {
+    width: 85%;
+}
+
+section {
+    width: 150px;
+    background-color: black;
+    border: solid white;
+    color: white;
+}
+
+header {
+    background-color: black;
+    height: 31px;
+    margin: auto;
+    padding: 1px;
+    border: solid white;
+    }
+
+button, input {
+    height: 30px;
+    font-size: 16px;
+    margin: 0px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+li>a>button {
+    width: 100%;
+    text-wrap: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+button:hover, input:not([type='email']):not([type='password']):hover {
+    background-color: white;
+    color: black;
+}
+
+#gallery-container {
+    width: 85%;
+    height: 800px;
+    background-color: black;
+    border: solid white;
+    margin: auto;
+}
+
+.spellbook {
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: solid purple;
+}
+
+img {
+    margin: 5px;
+    /*   height: 40px; */
+}
+
+img:hover {
+    /*   border: solid green; */
+    background-color: pink;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+p {
+    color: white;
+    max-width: 85%;
+}
+
+textarea {
+    background-color: black;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+#registration {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    display: contents;
+}
+
+section {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 22px;
+}
+
+#home {
+    background-image: url(https://oldschool.runescape.wiki/images/Lumbridge_Home_Teleport_icon_%28mobile%29.png?5d949&20181128230909);
+    
+}
+
+#swap {
+    background-image: url(https://oldschool.runescape.wiki/images/Spellbook_Swap_icon_%28mobile%29.png?d581f&20181128230949);
+}
+
+#register {
+    background-image: url(https://oldschool.runescape.wiki/images/Basic_Reanimation_icon_%28mobile%29.png?61920);
+}
+
+#about {
+    background-image: url(https://oldschool.runescape.wiki/images/Monster_Examine_icon_%28mobile%29.png?a74bd);
+}
+
+#contact {
+    background-image: url(https://oldschool.runescape.wiki/images/NPC_Contact_icon_%28mobile%29.png?c58d8);
+}
+
+#services {
+    background-image: url(https://oldschool.runescape.wiki/images/High_Level_Alchemy_icon_%28mobile%29.png?3e8cc);
+}
+
+table {
+    color: pink;
+    border: purple solid;
+    width: 224px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(58, 46, 57);
+    color: pink;
+}
+
+#viewer {
+    border: solid purple;
+}
